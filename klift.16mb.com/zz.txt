@@ -1,0 +1,34 @@
+{
+  "to":"",
+  "notification":{
+    "title":"",
+    "sound":"default"
+  },
+  "data":{
+    "id":"",
+    "src":"",
+    "dest":"",
+    "seats":""
+  }
+}
+
+
+var data="{
+                  \"to\":\"result[i].firebase\",
+                  \"notification\":{
+                    \"title\":\"Accept Request\",
+                    \"sound\":\"default\"
+                  },
+                  \"data\":{
+                    \"id\":\"\",
+                    \"src\":\"\",
+                    \"dest\":\"\",
+                    \"seats\":\"\"
+                  }
+                }";
+                
+              var xhttp = new XMLHttpRequest();  
+                xhttp.open("POST", "https://fcm.googleapis.com/fcm/send", false);
+                xhttp.setRequestHeader("Content-type", "application/json");
+                xhttp.setRequestHeader("Authorization","key=AIzaSyDJa95S4JvtUz46ZKZ9ga_Kf5Y-WqLTIaY");
+                xhttp.send(data);

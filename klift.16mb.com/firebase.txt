@@ -1,0 +1,12 @@
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDJa95S4JvtUz46ZKZ9ga_Kf5Y-WqLTIaY",
+    authDomain: "sunny-mender-145212.firebaseapp.com",
+    databaseURL: "https://sunny-mender-145212.firebaseio.com",
+    storageBucket: "sunny-mender-145212.appspot.com",
+    messagingSenderId: "201852147105"
+  };
+  firebase.initializeApp(config);
+</script>

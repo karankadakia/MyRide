@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pic" />
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textPersonName">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:hint="@string/Password1"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextConfirmPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:hint="@string/ConfirmPassword"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/createaccount_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CreateAccount" />
+
+
+        <TextView
+            android:layout_width="66dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/OR" />
+
+        <Button
+            android:id="@+id/buttonGoogle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Google" />
+
+        <Button
+            android:id="@+id/buttonfacebook"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Facebook" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/ic_launcher_web"
+android:orientation="vertical" >
+
+
+
+
+    <Button
+    android:id="@+id/homelogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:onClick="SignIn"
+    android:text="@string/Login"
+        android:layout_above="@+id/loginUser"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/loginUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SignUp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

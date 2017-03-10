@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:focusable="false">
+
+    <TextView
+        android:text="@string/LoginAs"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elegantTextHeight="true"
+        android:id="@+id/login_textviewloginas"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/loginUser"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+    <Button
+        android:id="@+id/loginUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/User"
+        android:layout_below="@+id/login_textviewloginas"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/loginDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Driver"
+        android:layout_below="@+id/loginUser"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
