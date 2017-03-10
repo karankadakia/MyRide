@@ -44,16 +44,16 @@ Driver Notification: How driver gets notification after a rider request for the 
 
 User DataBase
 
-<img src="https://github.com/karankadakia/MyRide/blob/master/Images/User_DataBase.png" width="350px">
+<img src="https://github.com/karankadakia/MyRide/blob/master/Images/User_DataBase.png" width="550px">
 
 Driver DataBase
 
-<img src="https://github.com/karankadakia/MyRide/blob/master/Images/Driver_DataBase.png" width="350px">
+<img src="https://github.com/karankadakia/MyRide/blob/master/Images/Driver_DataBase.png" width="550px">
 
 Request DataBase
 
-<img src="https://github.com/karankadakia/MyRide/blob/master/Images/Request_DataBase.png" width="350px">
+<img src="https://github.com/karankadakia/MyRide/blob/master/Images/Request_DataBase.png" width="550px">
 
 Ride DataBase
 
-<img src="https://github.com/karankadakia/MyRide/blob/master/Images/Ride_DataBase.png" width="350px">
+<img src="https://github.com/karankadakia/MyRide/blob/master/Images/Ride_DataBase.png" width="550px">
